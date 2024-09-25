@@ -1,3 +1,4 @@
+
 import copy
 import json
 class Sudoku:
@@ -55,7 +56,7 @@ class Sudoku:
 # 测试用例
 if __name__ == "__main__":
     # 从给定字符串创建Sudoku实例
-    sudoku_str = "017903600000080000900000507072010430000402070064370250701000065000030000005601720"
+    sudoku_str = "217943600000080000900000507072010430000402070064370250701000065000030000005601720"
     sudoku = Sudoku(sudoku_str)
     # 打印Sudoku棋盘
     print("初始化棋盘:")
